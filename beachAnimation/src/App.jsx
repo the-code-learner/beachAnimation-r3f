@@ -1,10 +1,7 @@
 import { Suspense, useState } from 'react'
 import './App.css'
-import { BeachAnimation } from './assets/Beach-animation1'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
-import { BeachAnimation2 } from './assets/Beach-animation2'
-import { BeachAnimation3 } from './assets/Beach-animation3'
 import { BeachAnimation4 } from './assets/Beach-animation4'
 
 
