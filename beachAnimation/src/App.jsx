@@ -19,7 +19,7 @@ function App() {
       <Canvas  camera={{ position: [2, 5, 8] }}>
         <OrbitControls/>
         <pointLight position={[3, 2, 1]} />
-        <directionalLight position={[3, 2, 1]} intensity={1.5}/>
+        <directionalLight position={[3, 2, 1]} intensity={1.4}/>
         <ambientLight intensity={1.3}/>
         <Suspense fallback={null}>
           <BeachAnimation4/>
